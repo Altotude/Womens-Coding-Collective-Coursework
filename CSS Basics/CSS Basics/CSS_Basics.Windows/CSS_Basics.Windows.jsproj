@@ -63,6 +63,8 @@
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
     <Content Include="css\default.css" />
+    <Content Include="mini zen page.css" />
+    <Content Include="mini zen page.html" />
     <None Include="CSS_Basics_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
