@@ -1,0 +1,47 @@
+/* style the outside box with a border and a background color */
+	#outsidebox {
+		background-color: Turquoise;
+		border: 10px solid DarkCyan;
+		padding: 20px;
+		width: 1000px;
+		
+	}
+/* style the heading 1 with font and color */
+	h1{
+		color: white;
+		font-family: Georgia;
+		font-weight: lighter;
+	}
+
+
+	/* style the heading 2s with font and color */
+	.nextlevel {
+		color: DarkCyan;
+		font-family: Verdana;
+		font-size: medium;
+	}
+
+	/* style the olbox with a border */
+	#olbox {
+		border: 1px dashed white;
+		padding: 10px;
+		width: 300px;
+	}
+
+	/* style the ulbox with a border */
+	#ulbox{
+		background-color: white;
+		border: 1px solid DarkCyan;
+		padding: 10px;
+		width: 300px;
+	}
+
+	/* change the style of the bullets */
+	ul {
+		list-style-type: square;
+	}
+
+	/* change the style of the link states */
+	a:link, a:visited, a:hover, a:active {
+		color:DarkCyan;
+	}
