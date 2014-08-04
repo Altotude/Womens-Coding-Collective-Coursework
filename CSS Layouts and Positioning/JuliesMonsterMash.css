@@ -1,0 +1,48 @@
+#wrapper {
+	border:2px solid purple;
+	background-color:lightgrey;
+	width:400px;
+	height:500px;
+  position:relative;
+
+	/* This magic line will make this box always centered */
+	margin:auto;
+
+	margin-top:10px;
+}
+
+#blue {
+  position:absolute;
+  bottom:0px;
+}
+
+#grr {
+  position:absolute;
+  left:75px;
+  bottom:175px;
+}
+
+#green {
+  position:absolute;
+  left:120px;
+  bottom:0px;
+}
+
+#oooga {
+  position:absolute;
+  left:250px;
+  bottom:150px;
+}
+
+#brown {
+  position:absolute;
+  left:300px;
+  bottom:0px;
+}
+
+#woof {
+  position:absolute;
+  left:325px;
+  bottom:75px;
+}
+/* http://codepen.io/Altotude/pen/nGlgt */

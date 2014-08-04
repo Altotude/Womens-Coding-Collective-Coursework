@@ -1,12 +1,8 @@
 #wrapper {
-	height:180px; /* since the sections inside will be taken out
-	of the normal flow, the wrapper won't know how tall to be; given
-	that we have to specify a height. Later, we'll look at another
-	fix for this that doesn't require locking your layout into a set
-	height */
 	width:300px;
 	border:1px solid black;
 	padding:10px;
+  	height:150px;
 }
 
 section {
@@ -20,3 +16,5 @@ section {
 #cons {
 	float:left;
 }
+
+/* Link to codepen: http://codepen.io/Altotude/pen/wdkyl */

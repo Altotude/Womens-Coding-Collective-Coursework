@@ -1,22 +1,22 @@
 #wrapper {
 	width:300px;
-	border:1px solid black
+	border:1px solid black;
 	padding:10px
-	height:180px;
-	/* if we don't restrict the height, our wrapper
-	will be too big. This is because when you relatively position an
-	element, it reserves the space it was taking. So in this case, 
-	even though we moved the Cons list up and to the right, the
-	space it sat in originally is still being used, making the
-	wrapper taller than it needs to be */
 }
 
 section {
 	width:50%;
 }
 
+#pros {
+	position:relative;
+	left:10px;
+}
+
 #cons {
 	position:relative;
-	top:-120px;
-	left:140px;
+  top:-120px;
+  left:150px;
 }
+
+/* Link to codepen: http://codepen.io/Altotude/pen/IlqBj */
