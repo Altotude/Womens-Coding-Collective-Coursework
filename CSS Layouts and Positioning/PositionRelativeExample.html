@@ -1,0 +1,27 @@
+<style>
+	section {
+		border:1px solid black;
+		width:600px;
+		height:100px;
+		margin:10px;
+
+		/* Setting only position relative with no
+		top, left, bottom, right values will allow the element
+		to sit just where it normally would, yet it will also
+		it to play nicely with its absolute child */
+		position:relative;
+	}
+
+	#simpleBox {
+		background-color:lightblue;
+		width:50px;
+		height:50px;
+		position:absolute;
+		top:25px;
+		left:50px;
+	}
+</style>
+
+<section>
+	<div id='simpleBox'></div>
+</section>

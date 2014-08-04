@@ -1,0 +1,27 @@
+/* This is the WCC solution for using absolute */
+#wrapper {
+  width:300px;
+  /* because the sections inside will be taken out
+  of the normal flow, the wrapper won't know how tall to be;
+  given that we have to specify a height. Later, we'll look at another
+  fix for this that doesn't require locking your layout into a set
+  height */
+  height:180px;
+  border:1px solid black;
+  padding:10px;
+  position:relative; /* so we can use absolute position in the child elements */
+}
+
+section {
+  width:50%;
+}
+
+#pros {
+  position:absolute;
+  left:10px;
+}
+
+#cons {
+  position:absolute;
+  right:0px;
+}
