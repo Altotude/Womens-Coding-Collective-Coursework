@@ -3,6 +3,9 @@
   border:1px solid black;
   padding:10px;
   height:150px;
+  /* Remember that the parent element requires a position that is NOT static (the default) in order
+  to use absolute positioning */
+  position:relative; /* so we can use absolute position in the child elements */
 }
 
 section {

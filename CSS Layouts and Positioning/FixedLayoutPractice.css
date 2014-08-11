@@ -16,6 +16,9 @@ h1 {
 	padding:10px;
 }
 
-#top {
+#top li {
 	display:inline-block;
+	text-align:center;
+	font-family:Arial;
+	color:white;
 }

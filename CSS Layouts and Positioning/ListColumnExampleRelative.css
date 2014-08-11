@@ -1,7 +1,10 @@
 #wrapper {
 	width:300px;
 	border:1px solid black;
-	padding:10px
+	padding:10px;
+	/* The height attribute prevents the box from being too tall. Relative positioning
+	reserves the amount of space that was being used, even if it isn't being used now. */
+	height:180px;
 }
 
 section {
