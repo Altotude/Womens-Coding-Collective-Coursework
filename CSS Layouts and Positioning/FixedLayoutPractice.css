@@ -16,9 +16,14 @@ h1 {
 	padding:10px;
 }
 
+#top {
+	background-color:DarkTurquoise;
+	font-family:Arial;
+	font-size:smaller;
+	text-align:center;
+}
+
 #top li {
 	display:inline-block;
-	text-align:center;
-	font-family:Arial;
-	color:white;
+	
 }
