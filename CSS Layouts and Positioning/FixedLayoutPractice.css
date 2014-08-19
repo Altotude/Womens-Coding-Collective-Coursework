@@ -6,6 +6,7 @@ body {
 	width:960px;
 	margin:auto;
 	background-color:Azure;
+	position:relative;
 }
 
 h1 {
@@ -25,5 +26,13 @@ h1 {
 
 #top li {
 	display:inline-block;
-	
+}
+
+#aside {
+	border: 1px solid black;
+	position: absolute;
+}
+
+#article {
+	position:absolute;
 }
