@@ -2,19 +2,53 @@
 <head>
 	<style>
 		#lucy {
-			border:1px solid #ccc;
+			background-color:purple;
 			width:150px;
 			padding:10px;
-			color:black;
+			cursor:pointer; /* visual feedback that this div is clickable */
 		}
 	</style>
 </head>
 
 <body>
-	<div id='lucy'>This is the Lucy div</div>
+	<div id='lucy'>Go ahead, click me!</div>
 
 	<script>
-		document.getElementById('lucy').style.color = 'orange';
+		// Vanilla JavaScript way
+		// document.getElementById('lucy').style.color = 'orange';
+
+		// Improved jQuery JavaScript way
+		// $('#lucy').css('color', 'orange');
+
+		// To select an element by ID, prepend with a hash sign (as above)
+		// $('#lucy').css('color', 'black');
+
+		// To select an element by class, prepend with a period
+		// $('.ricardo').css('color', 'black');
+
+		// To select an element by HTML tag name, no prepend character
+		// $('h1').css('color', 'black');
+
+		// To select the first span in any div
+		// (this is showing off)
+		// $('div span:first-child').css('color', 'black');
+
+		// event listeners
+		// how to attach an event to an element (inside the script tags, notice)
+		// click is a function, and what the function does goes in the parens
+		// so here's an imaginary example
+		// $('#lucy').click(
+		// 	make_coffee('decaf', 'distilled');
+		// );
+		// which, if divs could make coffee, could result in a nice cup of decaf.
+		// but actually, click is an event listener, and those use anonymous functions
+		// what's above is a regular function.
+		// Here's passing an anonymous function as the event handler for a click listener
+		// When lucy is clicked, change the background color and font size
+		$('#lucy').click(function() {
+			$('#lucy').css('background-color', 'orange');
+			$('#lucy').css('font-size', '25px');
+		});
 	</script>
 	
 </body>
