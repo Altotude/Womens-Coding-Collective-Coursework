@@ -29,21 +29,23 @@
 	<div id='ricky' class='ricardo'>Ricky Ricardo</div>
 
 	<script>
-		// OK, give the lucy div a 3px solid red border
-		// $('#lucy').css('border', '3px solid red');
-		// Got it!
-		// Now write a line that makes both lucy and ricky yellow.
-		// $('.ricardo').css('background-color', 'yellow');
-		// So done.
-		// Next write a line that will turn the body of the page yellow.
-		// $('body').css('background-color', 'yellow');
-		// My eyes! (I'll say. Also: done.)
-		// OK, if you're so smart, write a line that will turn all the divs on the page green
-		// $('.ricardo').css('background-color', 'green');
-		// Coding it is easy, but being green, well, that's not so easy
-		// Write a line that will make all the divs on the page disappear.
-		// $('.ricardo').css('display', 'none');
-		// Woo-hoo! I did it!
+		// Event listener challenges
+		// When lucy is clicked, change her border to blue 
+		// $('#lucy').click(function() {
+
+	 		// Your command(s) go here
+	 		// Ex:
+	 		// $('#lucy').css('border', '3px solid blue');
+
+		// });
+		// Yep, that works.
+
+		// When lucy is hovered, change her opacity to .5
+		$('lucy').hover(function() {
+			$('#lucy').css('opacity', '.5');
+		});
+		// This doesn't work, but I don't understand why not. AFAICT, my syntax is correct.
+
 	</script>
 </body>
 </html>
