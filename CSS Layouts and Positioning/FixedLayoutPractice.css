@@ -28,11 +28,11 @@ h1 {
 	display:inline-block;
 }
 
-#aside {
+#leftcol {
 	border: 1px solid black;
 	position: absolute;
 }
 
-#article {
+#rightcol {
 	position:absolute;
 }
