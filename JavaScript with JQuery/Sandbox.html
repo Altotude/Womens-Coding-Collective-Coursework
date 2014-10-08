@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <head>
 	<style>
-		#lucy {
+		/* #lucy {
 			background-color:purple;
 			width:150px;
 			padding:10px;
 			cursor:pointer; /* visual feedback that this div is clickable */
+		} */
+		div {
+			width:100px;
+			height:100px;
+			float:left;
+			margin:10px;
+			font-family:consolas;
+			padding:10px;
+		}
+
+		#lucy {
+			background-color:orange;
+		}
+
+		#ricky {
+			background-color:grey;
 		}
 	</style>
+
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+
 </head>
 
 <body>
-	<div id='lucy'>Go ahead, click me!</div>
+	<!-- <div id='lucy'>Go ahead, click me!</div> -->
+	<!-- example 1 html -->
+	<!--<div id='lucy'></div> -->
+
+	<!--<div id='results'></div> -->
+	<!-- example 2 html -->
+	<!-- <div id='lucy' class='ricardo'></div> -->
+	<!-- <div id='ricky' class='ricardo'></div> -->
+
+	<!-- <div id='results'></div> -->
+
+	<!-- example 3 html -->
+	<div id='lucy' class='ricardo'>Lucy</div>
+	<div id='ricky' class='ricardo'>Ricky</div>
+	<div id='results'></div>
+
+
 
 	<script>
 		// Vanilla JavaScript way
@@ -45,10 +80,34 @@
 		// what's above is a regular function.
 		// Here's passing an anonymous function as the event handler for a click listener
 		// When lucy is clicked, change the background color and font size
-		$('#lucy').click(function() {
-			$('#lucy').css('background-color', 'orange');
-			$('#lucy').css('font-size', '25px');
+		// $('#lucy').click(function() {
+		//	$('#lucy').css('background-color', 'orange');
+		//	$('#lucy').css('font-size', '25px');
+		// });
+
+		// Introducing the this keyword
+		// example 1 script:
+		//	$('#lucy').click(function() {
+		//			$('#results').html("Lucy was clicked...duh!");
+		//	});
+		// pretty unambiguous; you know lucy was clicked because there aren't any other divs to click
+
+		// Example 2 script:
+		//$('.ricardo').click(function() {
+		//	$('#results').html("Lucy *or* Ricky was clicked");
+		//});
+		// You can't tell which div was clicked.
+
+		// example 3 script:
+		$('.ricardo').click(function() {
+			var clicked_element = $(this).attr('id');
+			// Translation of above line:
+			// Get the id of whatever element was clicked (this),
+			// and store it in the variable called 'clicked_element'
+			// Display resuts
+			$('#results').html(clicked_element + "was clicked");
 		});
+
 	</script>
 	
 </body>
