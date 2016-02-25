@@ -29,25 +29,46 @@
 	<div id='ricky' class='ricardo'>Ricky Ricardo</div>
 
 	<script>
+        //OK, first task: write a line that will make the lucy div have a 3px solid red border
+        //This works:
+        //$('#lucy').css('border', '3px solid red');
+        
+        //Second task: make both the lucy and ricky divs yellow.
+        //This works:
+        // $('#lucy').css('background-color', 'yellow');
+        //$('#ricky').css('background-color', 'yellow');
+        
+        //Third task: turn the body of the page yellow
+        //This works:
+        //$('body').css('background-color', 'yellow');
+        
+        //Fourth task: turn all the divs on the page green
+        //This works:
+        //$('div').css('background-color', 'green');
+        
+        //Fifth task: make all the divs on the page disappear
+        //This works:
+        //$('div').css('visibility', 'hidden');
+        
 		// Event listener challenges
 		// When lucy is clicked, change her border to blue 
 		// $('#lucy').click(function() {
 
 	 		// Your command(s) go here
 	 		// Ex:
-	 		// $('#lucy').css('border', '3px solid blue');
+	 		//$('#lucy').css('border', '3px solid blue');
 
 		// });
 		// Yep, that works.
 
 		// When lucy is hovered, change her opacity to .5
 		// $('#lucy').hover(function() {
-		//	$('#lucy').css('opacity', '.5');
+		// $('#lucy').css('opacity', '.5');
 		// });
 		// This doesn't work, but I don't understand why not. AFAICT, my syntax is correct.
 		// It didn't work because I was missing the hash sign on the first selector. It's right now.
 
-		// Next one: when either lucy or ricky is clicked, change the height of luncy to 300 px.
+		// Next one: when either lucy or ricky is clicked, change the height of lucy to 300 px.
 		// $('.ricardo').click(function() {
 		// 	$('#lucy').css('height', '300px');
 		// });
