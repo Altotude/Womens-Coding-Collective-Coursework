@@ -1,14 +1,14 @@
 <<<<<<< HEAD
 /* This is the color picker function */
-/* $('.colors').click(function() {
+$('.colors').click(function() {
     // Figure out which color we should use
     // Store the results in a variable
     var chosen_color = $(this).css('background-color');
     // Change the background color of the canvas using the variable we just set
     $('#canvas').css('background-color', chosen_color);
     // BONUS! Also change the texture choices
-    $('.texture').css('background-color', chosen_color);
-}); *.
+    /* $('.texture').css('background-color', chosen_color); */
+});
 
 /* This is the texture picker function */
 /* $('.texture').click(function() {

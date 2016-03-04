@@ -1,0 +1,11 @@
+<div id='lucy' class='ricardo'></div>
+<div id='ricky' class='ricardo'></div>
+
+<div id='results'></div>
+
+<script>
+    $('.ricardo').click(function() {
+        $('#results').html("Lucy *or* Ricky was clicked");
+    });
+</script>
+<!-- but in this example we don't really know which one was clicked, because the divs share the same class -->

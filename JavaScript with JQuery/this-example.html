@@ -1,0 +1,17 @@
+<div id='lucy' class='ricardo'>Lucy</div>
+<div id='ricky' class='ricardo'>Ricky</div>
+
+<div id='results'></div>
+
+<script>
+    $('.ricardo').click(function() {
+        
+        var clicked_element = $(this).attr('id');
+        // Translation: get the id of whatever element was clicked (this), 
+        // and store it in the variable called clicked_element
+        
+        // display the results
+        $('#results').html(clicked_element + "was clicked");
+    });
+</script>
+<!-- use the *this* keyword when you don't know which element might have triggered the listener -->
