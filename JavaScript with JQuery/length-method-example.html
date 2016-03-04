@@ -1,0 +1,16 @@
+Enter your first name and we'll tell you how many characters long it is.
+<input type='text' id='first_name'>
+
+<div id='results'></div>
+
+<script>
+    $('#first_name').keyup(function() {
+        
+        var first_name = $(this).val();
+        
+        // How many characters long is the name?
+        var name_length = first_name.length;
+        
+        $('#results').html("Your name is " + name_length + " characters long");
+    });
+</script>

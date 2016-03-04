@@ -38,7 +38,8 @@ $('.messages').click(function() {
 });
 
 /* This gets the recipient name from the input where the user types it */
-/* $('#recipient').keyup(function() {
+$('#recipient').keyup(function() {
+    
     // .val will tell us what was input into #recipient
     var name = $(this).val();
     
@@ -56,7 +57,7 @@ $('.messages').click(function() {
     else {
         $('#recipient-error').html("");
     } 
-}); */
+});
 
 /* This gets the sticker and copies it onto the card */
 /* $('.stickers').click(function() {

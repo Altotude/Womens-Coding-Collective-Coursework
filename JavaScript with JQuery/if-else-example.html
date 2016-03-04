@@ -1,0 +1,23 @@
+How old are you?
+<input type='text' id='age'>
+
+<div id='results'></div>
+
+<script>
+    $('#age').keyup(function() {
+        
+        var age = $(this).val();
+        
+        if(age < 13) {
+            var person_type = "Kiddo";
+        }
+        else if(age >= 13 && age < 19) {
+            var person_type = "Teenager";
+        }
+        else {
+            var person_type = "Adult";
+        }
+        
+        $('#results').html("Life status" + person_type);
+    });
+</script>
