@@ -6,19 +6,20 @@ $('.colors').click(function() {
     
     // Change the background color of the canvas using the variable we just set
     $('#canvas').css('background-color', chosen_color);
+    
     // BONUS! Also change the texture choices
-    /* $('.texture').css('background-color', chosen_color); */
+    $('.texture').css('background-color', chosen_color);
 });
 
 /* This is the texture picker function */
-/* $('.texture').click(function() {
+$('.textures').click(function() {
     // Figure out which texture to use
     // Store the results in a variable
-    var chosen_texture = $(this).css
-   ('background-image');
+    var image = $(this).css('background-image');
+    
     // Change the background texture of the canvas using the variable we just set
-    $('#canvas').css('background-image', chosen_texture);
-}); */
+    $('#canvas').css('background-image', image);
+});
 
 /* This is the message picker function */
 /* $('.messages').click(function() {
