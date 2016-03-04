@@ -60,7 +60,7 @@
     background-image:url('../images/texture-cloth.png');
 }
     
-/* #message-output {
+#message-output {
     text-align: center;
     font-size: 36px;
     position: absolute;
@@ -68,7 +68,7 @@
     height: 500px;
     width: 100%;
     
-} */
+}
 
 /* #recipient-output {
     text-align: center;

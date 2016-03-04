@@ -22,7 +22,7 @@ $('.textures').click(function() {
 });
 
 /* This is the message picker function */
-/* $('.messages').click(function() {
+$('.messages').click(function() {
     // Figure out which radio button was clicked
     // And put the whole element in a variable
     var radio_button = $(this);
@@ -35,7 +35,7 @@ $('.textures').click(function() {
     
     // Inject the message into the card
     $('#message-output').html(messagetext);
-}); */
+});
 
 /* This gets the recipient name from the input where the user types it */
 /* $('#recipient').keyup(function() {
