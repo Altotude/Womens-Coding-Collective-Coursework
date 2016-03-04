@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 /* This is the color picker function */
-$('.colors').click(function() {
+/* $('.colors').click(function() {
     // Figure out which color we should use
     // Store the results in a variable
     var chosen_color = $(this).css('background-color');
@@ -8,20 +8,20 @@ $('.colors').click(function() {
     $('#canvas').css('background-color', chosen_color);
     // BONUS! Also change the texture choices
     $('.texture').css('background-color', chosen_color);
-});
+}); *.
 
 /* This is the texture picker function */
-$('.texture').click(function() {
+/* $('.texture').click(function() {
     // Figure out which texture to use
     // Store the results in a variable
     var chosen_texture = $(this).css
    ('background-image');
     // Change the background texture of the canvas using the variable we just set
     $('#canvas').css('background-image', chosen_texture);
-});
+}); */
 
 /* This is the message picker function */
-$('.messages').click(function() {
+/* $('.messages').click(function() {
     // Figure out which radio button was clicked
     // And put the whole element in a variable
     var radio_button = $(this);
@@ -34,10 +34,10 @@ $('.messages').click(function() {
     
     // Inject the message into the card
     $('#message-output').html(messagetext);
-});
+}); */
 
 /* This gets the recipient name from the input where the user types it */
-$('#recipient').keyup(function() {
+/* $('#recipient').keyup(function() {
     // .val will tell us what was input into #recipient
     var name = $(this).val();
     
@@ -55,7 +55,7 @@ $('#recipient').keyup(function() {
     else {
         $('#recipient-error').html("");
     } 
-});
+}); */
 
 /* This gets the sticker and copies it onto the card */
 /* $('.stickers').click(function() {

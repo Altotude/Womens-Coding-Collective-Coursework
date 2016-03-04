@@ -1,4 +1,4 @@
-.colors {
+/* .colors {
 	cursor:pointer;
 	width:30px;
 	height:30px;
@@ -32,10 +32,10 @@
 
 #violet {
 	background-color:#E5A7FA;
-}
+} */
 <<<<<<< HEAD
 
-.texture {
+/* .texture {
     width:80px;
     height:35px;
     float:left;
@@ -58,9 +58,9 @@
 
 #swirls {
     background-image: url("../images/texture-swirls.png");
-}
+} */
     
-#message-output {
+/* #message-output {
     text-align: center;
     font-size: 36px;
     position: absolute;
@@ -68,14 +68,14 @@
     height: 500px;
     width: 100%;
     
-}
+} */
 
-#recipient-output {
+/* #recipient-output {
     text-align: center;
     font-size: 36px;
     position: absolute;
     top: 150px;
     width: 100%;
-}
+} */
 =======
 >>>>>>> parent of 0edc1ab... challenge set 5
