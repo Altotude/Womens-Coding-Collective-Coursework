@@ -63,8 +63,14 @@ $('#recipient').keyup(function() {
 $('.stickers').click(function() {
     // Clone the clicked sticker
     var new_sticker = $(this).clone();
+    
+    // give all stickers on the card the same class for absolute positioning
+    new_sticker.addClass('stickers_on_card');
        
     // Inject the new sticker into the canvas
     $('#canvas').prepend(new_sticker);
+    
+    // Make the new sticker draggable
+    new_sticker.draggable();
     
 });
