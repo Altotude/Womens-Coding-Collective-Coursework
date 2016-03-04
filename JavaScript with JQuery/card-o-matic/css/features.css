@@ -33,3 +33,49 @@
 #violet {
 	background-color:#E5A7FA;
 }
+<<<<<<< HEAD
+
+.texture {
+    width:80px;
+    height:35px;
+    float:left;
+    margin-right:5px;
+    cursor:pointer;
+    border:1px solid #eee;
+}
+
+#circles {
+    background-image: url('../images/texture-circles.png');
+}
+
+#cloth {
+    background-image: url('../images/texture-cloth.png');
+}
+
+#paper {
+    background-image: url("../images/texture-paper.png");
+}
+
+#swirls {
+    background-image: url("../images/texture-swirls.png");
+}
+    
+#message-output {
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    
+}
+
+#recipient-output {
+    text-align: center;
+    font-size: 36px;
+    position: absolute;
+    top: 150px;
+    width: 100%;
+}
+=======
+>>>>>>> parent of 0edc1ab... challenge set 5
