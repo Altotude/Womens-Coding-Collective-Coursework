@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 /* This is the color picker function */
 $('.colors').click(function() {
     // Figure out which color we should use
     // Store the results in a variable
     var chosen_color = $(this).css('background-color');
+    
     // Change the background color of the canvas using the variable we just set
     $('#canvas').css('background-color', chosen_color);
     // BONUS! Also change the texture choices
@@ -73,5 +73,3 @@ $('.colors').click(function() {
     // so that the stickers can't be dragged outside the card
     new_sticker.draggable({containment: '#canvas' opacity: 0.35});
 }); */
-=======
->>>>>>> parent of 0edc1ab... challenge set 5
