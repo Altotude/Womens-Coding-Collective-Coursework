@@ -1,0 +1,18 @@
+<style>
+    #lucy {
+        width: 75px;
+        padding: 10px;
+        background-color: orange;
+        /* Using the "move" cursor, which looks like a crosshair and signifies something is movable */
+        cursor:move;
+    }
+</style>
+
+<div id='lucy'>Drag me!</div>
+
+<div id='results'></div>
+
+<script>
+    // One single method and lucy is transformed into a movable element
+    $('#lucy').draggable();
+</script>
