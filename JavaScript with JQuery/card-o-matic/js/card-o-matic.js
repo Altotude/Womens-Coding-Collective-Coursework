@@ -71,6 +71,6 @@ $('.stickers').click(function() {
     $('#canvas').prepend(new_sticker);
     
     // Make the new sticker draggable
-    new_sticker.draggable();
+    new_sticker.draggable({containment: '#canvas'});
     
 });
