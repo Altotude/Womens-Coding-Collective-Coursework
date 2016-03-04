@@ -60,18 +60,11 @@ $('#recipient').keyup(function() {
 });
 
 /* This gets the sticker and copies it onto the card */
-/* $('.stickers').click(function() {
+$('.stickers').click(function() {
     // Clone the clicked sticker
     var new_sticker = $(this).clone();
-    
-    // Give all stickers on the card the same class so we can absolutely position them
-    new_sticker.addClass('stickers_on_card');
-    
+       
     // Inject the new sticker into the canvas
     $('#canvas').prepend(new_sticker);
     
-    // Make the new sticker draggable and set the
-    // "containment" option to be the #canvas div
-    // so that the stickers can't be dragged outside the card
-    new_sticker.draggable({containment: '#canvas' opacity: 0.35});
-}); */
+});
