@@ -74,3 +74,19 @@ $('.stickers').click(function() {
     new_sticker.draggable({containment: '#canvas'});
     
 });
+
+/* This makes the Refresh button work to clear everything on the card */
+$('#refresh-btn').click(function() {
+    
+    // Reset color and texture
+    $('#canvas').css('background-color', 'white');
+    $('#canvas').css('background-image', '');
+    
+    // Clear message and recipient divs
+    $('#message-output').html('');
+    $('#recipient-output').html('');
+
+    // Remove any stickers that have been added to the card
+    $('.stickers_on_card').remove();
+
+});
